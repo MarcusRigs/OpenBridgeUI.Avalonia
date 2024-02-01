@@ -25,7 +25,15 @@
     },
     {
       "behavior": "assembly",
+      "name": "Avalonia.DesignerSupport.dll"
+    },
+    {
+      "behavior": "assembly",
       "name": "Avalonia.Dialogs.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Avalonia.dll"
     },
     {
       "behavior": "assembly",
@@ -45,6 +53,10 @@
     },
     {
       "behavior": "assembly",
+      "name": "Avalonia.Remote.Protocol.dll"
+    },
+    {
+      "behavior": "assembly",
       "name": "Avalonia.Skia.dll"
     },
     {
@@ -54,6 +66,14 @@
     {
       "behavior": "assembly",
       "name": "HarfBuzzSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "MicroCom.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "netstandard.dll"
     },
     {
       "behavior": "assembly",
@@ -121,11 +141,23 @@
     },
     {
       "behavior": "assembly",
+      "name": "System.IO.Compression.dll"
+    },
+    {
+      "behavior": "assembly",
       "name": "System.Linq.dll"
     },
     {
       "behavior": "assembly",
       "name": "System.Linq.Expressions.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Primitives.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Net.Sockets.dll"
     },
     {
       "behavior": "assembly",
@@ -141,16 +173,58 @@
     },
     {
       "behavior": "assembly",
+      "name": "System.Private.Xml.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Runtime.InteropServices.dll"
+    },
+    {
+      "behavior": "assembly",
       "name": "System.Runtime.InteropServices.JavaScript.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Security.Cryptography.Primitives.dll"
     },
     {
       "behavior": "assembly",
       "name": "System.Text.RegularExpressions.dll"
     },
     {
+      "behavior": "assembly",
+      "name": "System.Threading.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "System.Threading.Thread.dll"
+    },
+    {
       "virtualPath": "runtimeconfig.bin",
       "behavior": "vfs",
       "name": "supportFiles/0_runtimeconfig.bin"
+    },
+    {
+      "virtualPath": "dotnet.js.symbols",
+      "behavior": "vfs",
+      "name": "supportFiles/1_dotnet.js.symbols"
+    },
+    {
+      "loadRemote": false,
+      "behavior": "icu",
+      "name": "icudt.dat"
     },
     {
       "virtualPath": "/usr/share/zoneinfo/",
