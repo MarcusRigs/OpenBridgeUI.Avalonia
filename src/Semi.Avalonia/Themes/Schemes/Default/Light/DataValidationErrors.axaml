@@ -1,11 +1,11 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="DataValidationErrorsForeground" Color="#FFF93920" />
-    <SolidColorBrush x:Key="DataValidationErrorsBackground" Color="#FFFEF2ED" />
-    <SolidColorBrush x:Key="DataValidationErrorsBorderBrush" Color="#FFFEF2ED" />
-    <SolidColorBrush x:Key="DataValidationErrorsPointerOverBackground" Color="#FFFEDDD2" />
-    <SolidColorBrush x:Key="DataValidationErrorsPointerOverBorderBrush" Color="#FFFEDDD2" />
-    <SolidColorBrush x:Key="DataValidationErrorsPressedBackground" Color="#FFFDB7A5" />
-    <SolidColorBrush x:Key="DataValidationErrorsPressedBorderBrush" Color="#FFFDB7A5" />
-    <SolidColorBrush x:Key="DataValidationErrorsSelectedBackground" Color="#FFFEF2ED" />
-    <SolidColorBrush x:Key="DataValidationErrorsSelectedBorderBrush" Color="#FFF93920" />
+    <SolidColorBrush x:Key="DataValidationErrorsForeground" Color="{StaticResource SemiRed5Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsBackground" Color="{StaticResource SemiRed0Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsBorderBrush" Color="{StaticResource SemiRed0Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsPointerOverBackground" Color="{StaticResource SemiRed1Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsPointerOverBorderBrush" Color="{StaticResource SemiRed1Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsPressedBackground" Color="{StaticResource SemiRed2Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsPressedBorderBrush" Color="{StaticResource SemiRed2Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsSelectedBackground" Color="{StaticResource SemiRed0Color}" />
+    <SolidColorBrush x:Key="DataValidationErrorsSelectedBorderBrush" Color="{StaticResource SemiRed5Color}" />
 </ResourceDictionary>

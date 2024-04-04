@@ -1,11 +1,11 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--  Light  -->
-    <SolidColorBrush x:Key="ButtonDefaultPrimaryForeground" Color="#0077FA" />
-    <SolidColorBrush x:Key="ButtonDefaultSecondaryForeground" Color="#0095EE" />
-    <SolidColorBrush x:Key="ButtonDefaultTertiaryForeground" Color="#6B7075" />
-    <SolidColorBrush x:Key="ButtonDefaultSuccessForeground" Color="#3BB346" />
-    <SolidColorBrush x:Key="ButtonDefaultWarningForeground" Color="#FC8800" />
-    <SolidColorBrush x:Key="ButtonDefaultDangerForeground" Color="#F93920" />
+    <SolidColorBrush x:Key="ButtonDefaultPrimaryForeground" Color="{StaticResource SemiBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonDefaultSecondaryForeground" Color="{StaticResource SemiLightBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonDefaultTertiaryForeground" Color="{StaticResource SemiGrey5Color}" />
+    <SolidColorBrush x:Key="ButtonDefaultSuccessForeground" Color="{StaticResource SemiGreen5Color}" />
+    <SolidColorBrush x:Key="ButtonDefaultWarningForeground" Color="{StaticResource SemiOrange5Color}" />
+    <SolidColorBrush x:Key="ButtonDefaultDangerForeground" Color="{StaticResource SemiRed5Color}" />
     <SolidColorBrush x:Key="ButtonDefaultDisabledForeground" Opacity="0.35" Color="#1C1F23" />
 
     <SolidColorBrush x:Key="ButtonDefaultBackground" Opacity="0.05" Color="#2E3238" />
@@ -22,56 +22,56 @@
     <!--  Solid  -->
     <SolidColorBrush x:Key="ButtonSolidForeground" Color="White" />
 
-    <SolidColorBrush x:Key="ButtonSolidPrimaryBackground" Color="#0077FA" />
-    <SolidColorBrush x:Key="ButtonSolidPrimaryPointeroverBackground" Color="#0062D6" />
-    <SolidColorBrush x:Key="ButtonSolidPrimaryPressedBackground" Color="#004FB3" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryBackground" Color="{StaticResource SemiBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryPointeroverBackground" Color="{StaticResource SemiBlue6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryPressedBackground" Color="{StaticResource SemiBlue7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidSecondaryBackground" Color="#0095EE" />
-    <SolidColorBrush x:Key="ButtonSolidSecondaryPointeroverBackground" Color="#007BCA" />
-    <SolidColorBrush x:Key="ButtonSolidSecondaryPressedBackground" Color="#0063A7" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryBackground" Color="{StaticResource SemiLightBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryPointeroverBackground" Color="{StaticResource SemiLightBlue6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryPressedBackground" Color="{StaticResource SemiLightBlue7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidTertiaryBackground" Color="#6B7075" />
-    <SolidColorBrush x:Key="ButtonSolidTertiaryPointeroverBackground" Color="#555B61" />
-    <SolidColorBrush x:Key="ButtonSolidTertiaryPressedBackground" Color="#41464C" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryBackground" Color="{StaticResource SemiGrey5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryPointeroverBackground" Color="{StaticResource SemiGrey6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryPressedBackground" Color="{StaticResource SemiGrey7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidSuccessBackground" Color="#3BB346" />
-    <SolidColorBrush x:Key="ButtonSolidSuccessPointeroverBackground" Color="#30953B" />
-    <SolidColorBrush x:Key="ButtonSolidSuccessPressedBackground" Color="#25772F" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessBackground" Color="{StaticResource SemiGreen5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessPointeroverBackground" Color="{StaticResource SemiGreen6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessPressedBackground" Color="{StaticResource SemiGreen7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidWarningBackground" Color="#FC8800" />
-    <SolidColorBrush x:Key="ButtonSolidWarningPointeroverBackground" Color="#D26700" />
-    <SolidColorBrush x:Key="ButtonSolidWarningPressedBackground" Color="#A84A00" />
+    <SolidColorBrush x:Key="ButtonSolidWarningBackground" Color="{StaticResource SemiOrange5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidWarningPointeroverBackground" Color="{StaticResource SemiOrange6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidWarningPressedBackground" Color="{StaticResource SemiOrange7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidDangerBackground" Color="#F93920" />
-    <SolidColorBrush x:Key="ButtonSolidDangerPointeroverBackground" Color="#D52515" />
-    <SolidColorBrush x:Key="ButtonSolidDangerPressedBackground" Color="#B2140C" />
+    <SolidColorBrush x:Key="ButtonSolidDangerBackground" Color="{StaticResource SemiRed5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidDangerPointeroverBackground" Color="{StaticResource SemiRed6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidDangerPressedBackground" Color="{StaticResource SemiRed7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidPrimaryBorderBrush" Color="#0077FA" />
-    <SolidColorBrush x:Key="ButtonSolidPrimaryPointeroverBorderBrush" Color="#0062D6" />
-    <SolidColorBrush x:Key="ButtonSolidPrimaryPressedBorderBrush" Color="#004FB3" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryBorderBrush" Color="{StaticResource SemiBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryPointeroverBorderBrush" Color="{StaticResource SemiBlue6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidPrimaryPressedBorderBrush" Color="{StaticResource SemiBlue7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidSecondaryBorderBrush" Color="#0095EE" />
-    <SolidColorBrush x:Key="ButtonSolidSecondaryPointeroverBorderBrush" Color="#007BCA" />
-    <SolidColorBrush x:Key="ButtonSolidSecondaryPressedBorderBrush" Color="#0063A7" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryBorderBrush" Color="{StaticResource SemiLightBlue5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryPointeroverBorderBrush" Color="{StaticResource SemiLightBlue6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSecondaryPressedBorderBrush" Color="{StaticResource SemiLightBlue7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidTertiaryBorderBrush" Color="#6B7075" />
-    <SolidColorBrush x:Key="ButtonSolidTertiaryPointeroverBorderBrush" Color="#555B61" />
-    <SolidColorBrush x:Key="ButtonSolidTertiaryPressedBorderBrush" Color="#41464C" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryBorderBrush" Color="{StaticResource SemiGrey5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryPointeroverBorderBrush" Color="{StaticResource SemiGrey6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidTertiaryPressedBorderBrush" Color="{StaticResource SemiGrey7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidSuccessBorderBrush" Color="#3BB346" />
-    <SolidColorBrush x:Key="ButtonSolidSuccessPointeroverBorderBrush" Color="#30953B" />
-    <SolidColorBrush x:Key="ButtonSolidSuccessPressedBorderBrush" Color="#25772F" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessBorderBrush" Color="{StaticResource SemiGreen5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessPointeroverBorderBrush" Color="{StaticResource SemiGreen6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidSuccessPressedBorderBrush" Color="{StaticResource SemiGreen7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidWarningBorderBrush" Color="#FC8800" />
-    <SolidColorBrush x:Key="ButtonSolidWarningPointeroverBorderBrush" Color="#D26700" />
-    <SolidColorBrush x:Key="ButtonSolidWarningPressedBorderBrush" Color="#A84A00" />
+    <SolidColorBrush x:Key="ButtonSolidWarningBorderBrush" Color="{StaticResource SemiOrange5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidWarningPointeroverBorderBrush" Color="{StaticResource SemiOrange6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidWarningPressedBorderBrush" Color="{StaticResource SemiOrange7Color}" />
 
-    <SolidColorBrush x:Key="ButtonSolidDangerBorderBrush" Color="#F93920" />
-    <SolidColorBrush x:Key="ButtonSolidDangerPointeroverBorderBrush" Color="#D52515" />
-    <SolidColorBrush x:Key="ButtonSolidDangerPressedBorderBrush" Color="#B2140C" />
+    <SolidColorBrush x:Key="ButtonSolidDangerBorderBrush" Color="{StaticResource SemiRed5Color}" />
+    <SolidColorBrush x:Key="ButtonSolidDangerPointeroverBorderBrush" Color="{StaticResource SemiRed6Color}" />
+    <SolidColorBrush x:Key="ButtonSolidDangerPressedBorderBrush" Color="{StaticResource SemiRed7Color}" />
     <!--  end Solid  -->
-    
-    <SolidColorBrush x:Key="ButtonInputInnerForeground" Color="#6B7075" />
-    <SolidColorBrush x:Key="ButtonInputInnerPointeroverForeground" Color="#555B61" />
-    <SolidColorBrush x:Key="ButtonInputInnerPressedForeground" Color="#41464C" />
+
+    <SolidColorBrush x:Key="ButtonInputInnerForeground" Color="{StaticResource SemiGrey5Color}" />
+    <SolidColorBrush x:Key="ButtonInputInnerPointeroverForeground" Color="{StaticResource SemiGrey6Color}" />
+    <SolidColorBrush x:Key="ButtonInputInnerPressedForeground" Color="{StaticResource SemiGrey7Color}" />
 </ResourceDictionary>

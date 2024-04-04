@@ -1,6 +1,4 @@
-<ResourceDictionary
-    xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <SolidColorBrush x:Key="DateTimePickerListItemBackground" Color="Transparent" />
     <SolidColorBrush x:Key="DateTimePickerPopupBackground" Color="White" />
     <SolidColorBrush x:Key="DateTimePickerFlyoutButtonForeground" Opacity="0.62" Color="#1C1F23" />

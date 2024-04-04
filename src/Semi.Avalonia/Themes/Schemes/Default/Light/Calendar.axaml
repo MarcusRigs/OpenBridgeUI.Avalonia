@@ -1,6 +1,4 @@
-<ResourceDictionary
-    xmlns="https://github.com/avaloniaui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <SolidColorBrush x:Key="CalendarBackground" Color="White" />
     <SolidColorBrush x:Key="CalendarForeground" Color="#1C1F23" />
     <SolidColorBrush x:Key="CalendarBorderBrush" Opacity="0.08" Color="#1C1F23" />
@@ -12,7 +10,7 @@
     <SolidColorBrush x:Key="CalendarItemCalendarButtonBorderBrush" Color="Transparent" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonPointeroverBackground" Opacity="0.09" Color="#2E3238" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonPressedBackground" Opacity="0.13" Color="#2E3238" />
-    <SolidColorBrush x:Key="CalendarItemCalendarButtonSelectedBackground" Color="#0077FA" />
+    <SolidColorBrush x:Key="CalendarItemCalendarButtonSelectedBackground" Color="{StaticResource SemiBlue5Color}" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonSelectedForeground" Color="White" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonDisabledForeground" Opacity="0.35" Color="#1C1F23" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonBlackoutForeground" Opacity="0.35" Color="#1C1F23" />
@@ -25,10 +23,10 @@
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonPointeroverBackground" Opacity="0.09" Color="#2E3238" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonPressedBackground" Opacity="0.13" Color="#2E3238" />
 
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonSelectedBackground" Color="#0077FA" />
+    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonSelectedBackground" Color="{StaticResource SemiBlue5Color}" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonSelectedForeground" Color="White" />
 
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonTodayForeground" Color="#0077FA" />
+    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonTodayForeground" Color="{StaticResource SemiBlue5Color}" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonTodayBackground" Opacity="0.05" Color="#2E3238" />
 
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonDisabledForeground" Opacity="0.35" Color="#1C1F23" />
