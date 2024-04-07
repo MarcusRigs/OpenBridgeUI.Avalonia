@@ -2,9 +2,9 @@
     <SolidColorBrush x:Key="NotificationCardForeground" Color="#1C1F23" />
     <SolidColorBrush x:Key="NotificationCardBorderBrush" Opacity="0.08" Color="#1C1F23" />
     <SolidColorBrush x:Key="NotificationCardBackground" Color="White" />
-    <SolidColorBrush x:Key="NotificationCardInformationIconForeground" Color="{StaticResource SemiBlue5Color}" />
-    <SolidColorBrush x:Key="NotificationCardSuccessIconForeground" Color="{StaticResource SemiGreen5Color}" />
-    <SolidColorBrush x:Key="NotificationCardWarningIconForeground" Color="{StaticResource SemiOrange5Color}" />
-    <SolidColorBrush x:Key="NotificationCardErrorIconForeground" Color="{StaticResource SemiRed5Color}" />
+    <StaticResource x:Key="NotificationCardInformationIconForeground" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="NotificationCardSuccessIconForeground" ResourceKey="SemiColorSuccess" />
+    <StaticResource x:Key="NotificationCardWarningIconForeground" ResourceKey="SemiColorWarning" />
+    <StaticResource x:Key="NotificationCardErrorIconForeground" ResourceKey="SemiColorDanger" />
     <BoxShadows x:Key="NotificationCardBoxShadows">0 0 8 0 #1A000000</BoxShadows>
 </ResourceDictionary>

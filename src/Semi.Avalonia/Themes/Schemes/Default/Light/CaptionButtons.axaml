@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <SolidColorBrush x:Key="CaptionButtonPointeroverBackground" Opacity="0.09" Color="#2E3238" />
     <SolidColorBrush x:Key="CaptionButtonPressedBackground" Opacity="0.13" Color="#2E3238" />
-    <SolidColorBrush x:Key="CaptionButtonClosePointeroverBackground" Color="{StaticResource SemiRed6Color}" />
-    <SolidColorBrush x:Key="CaptionButtonClosePressedBackground" Color="{StaticResource SemiRed7Color}" />
+    <StaticResource x:Key="CaptionButtonClosePointeroverBackground" ResourceKey="SemiColorDangerPointerover" />
+    <StaticResource x:Key="CaptionButtonClosePressedBackground" ResourceKey="SemiColorDangerPressed" />
     <SolidColorBrush x:Key="CaptionButtonForeground" Opacity="0.62" Color="#1C1F23" />
 </ResourceDictionary>

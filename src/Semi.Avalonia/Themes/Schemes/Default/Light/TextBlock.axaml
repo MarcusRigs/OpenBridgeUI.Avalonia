@@ -3,12 +3,12 @@
     <SolidColorBrush x:Key="TextBlockSecondaryForeground" Opacity="0.8" Color="#1C1F23" />
     <SolidColorBrush x:Key="TextBlockTertiaryForeground" Opacity="0.62" Color="#1C1F23" />
     <SolidColorBrush x:Key="TextBlockQuaternaryForeground" Opacity="0.35" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TextBlockSuccessForeground" Color="{StaticResource SemiGreen5Color}" />
-    <SolidColorBrush x:Key="TextBlockWarningForeground" Color="{StaticResource SemiOrange5Color}" />
-    <SolidColorBrush x:Key="TextBlockDangerForeground" Color="{StaticResource SemiRed5Color}" />
+    <StaticResource x:Key="TextBlockSuccessForeground" ResourceKey="SemiColorSuccess" />
+    <StaticResource x:Key="TextBlockWarningForeground" ResourceKey="SemiColorWarning" />
+    <StaticResource x:Key="TextBlockDangerForeground" ResourceKey="SemiColorDanger" />
     <SolidColorBrush x:Key="TextBlockDisabledForeground" Opacity="0.35" Color="#1C1F23" />
     <SolidColorBrush x:Key="TextBlockCodeForeground" Opacity="0.68" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TextBlockMarkBackground" Color="{StaticResource SemiBlue0Color}" />
+    <StaticResource x:Key="TextBlockMarkBackground" ResourceKey="SemiColorInformationLight" />
     <SolidColorBrush x:Key="TextBlockCodeBackground" Opacity="0.1" Color="#2E3238" />
     <SolidColorBrush x:Key="TextBlockCodeBorderBrush" Opacity="0.2" Color="#2E3238" />
 

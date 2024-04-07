@@ -8,27 +8,27 @@
     <SolidColorBrush x:Key="CheckBoxDefaultBackground" Color="Transparent" />
     <SolidColorBrush x:Key="CheckBoxDefaultBorderBrush" Opacity="0.35" Color="#1C1F23" />
     <SolidColorBrush x:Key="CheckBoxPointeroverBackground" Opacity="0.05" Color="#2E3238" />
-    <SolidColorBrush x:Key="CheckBoxPointeroverBorderBrush" Color="{StaticResource SemiBlue5Color}" />
-    <SolidColorBrush x:Key="CheckBoxPressedBackground" Color="{StaticResource SemiBlue7Color}" />
-    <SolidColorBrush x:Key="CheckBoxPressedBorderBrush" Color="{StaticResource SemiBlue7Color}" />
+    <StaticResource x:Key="CheckBoxPointeroverBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxPressedBackground" ResourceKey="SemiColorInformationPressed" />
+    <StaticResource x:Key="CheckBoxPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
-    <SolidColorBrush x:Key="CheckBoxCheckedDefaultBackground" Color="{StaticResource SemiBlue5Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDefaultBorderBrush" Color="{StaticResource SemiBlue5Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPointeroverBackground" Color="{StaticResource SemiBlue6Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPointeroverBorderBrush" Color="{StaticResource SemiBlue6Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPressedBackground" Color="{StaticResource SemiBlue7Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPressedBorderBrush" Color="{StaticResource SemiBlue7Color}" />
+    <StaticResource x:Key="CheckBoxCheckedDefaultBackground" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCheckedDefaultBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCheckedPointeroverBackground" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCheckedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCheckedPressedBackground" ResourceKey="SemiColorInformationPressed" />
+    <StaticResource x:Key="CheckBoxCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <SolidColorBrush x:Key="CheckBoxDefaultDisabledBackground" Opacity="0.02" Color="#2E3238" />
     <SolidColorBrush x:Key="CheckBoxDefaultDisabledBorderBrush" Opacity="0.08" Color="#1C1F23" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDisabledBackground" Color="{StaticResource SemiBlue2Color}" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDisabledBorderBrush" Color="{StaticResource SemiBlue2Color}" />
+    <StaticResource x:Key="CheckBoxCheckedDisabledBackground" ResourceKey="SemiColorInformationDisabled" />
+    <StaticResource x:Key="CheckBoxCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
 
-    <SolidColorBrush x:Key="CheckBoxCardCheckedBackground" Color="{StaticResource SemiBlue0Color}" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedBorderBrush" Color="{StaticResource SemiBlue5Color}" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedDisabledBorderBrush" Color="{StaticResource SemiBlue2Color}" />
+    <StaticResource x:Key="CheckBoxCardCheckedBackground" ResourceKey="SemiColorInformationLight" />
+    <StaticResource x:Key="CheckBoxCardCheckedBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCardCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
     <SolidColorBrush x:Key="CheckBoxCardPointeroverBackground" Opacity="0.05" Color="#FF2E3238" />
     <SolidColorBrush x:Key="CheckBoxCardPressedBackground" Opacity="0.09" Color="#FF2E3238" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedPointeroverBorderBrush" Color="{StaticResource SemiBlue6Color}" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedPressedBorderBrush" Color="{StaticResource SemiBlue7Color}" />
+    <StaticResource x:Key="CheckBoxCardCheckedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCardCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 </ResourceDictionary>
