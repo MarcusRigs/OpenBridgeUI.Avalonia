@@ -23,7 +23,7 @@
     <StaticResource x:Key="RadioButtonCheckIconDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
     <SolidColorBrush x:Key="RadioButtonCheckGlyphFill" Color="White" />
 
-    <SolidColorBrush x:Key="RadioButtonForeground" Color="#1C1F23" />
+    <StaticResource x:Key="RadioButtonForeground" ResourceKey="SemiColorText0" />
     <SolidColorBrush x:Key="RadioButtonDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="RadioButtonDefaultBorderBrush" ResourceKey="SemiColorText3" />
 
@@ -34,7 +34,7 @@
     <StaticResource x:Key="RadioButtonButtonUncheckedPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="RadioButtonButtonUncheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <StaticResource x:Key="RadioButtonButtonCheckedForeground" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="RadioButtonButtonCheckedBackground" Color="White" />
+    <StaticResource x:Key="RadioButtonButtonCheckedBackground" ResourceKey="SemiColorBackground3" />
     <StaticResource x:Key="RadioButtonButtonCheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <!-- CardRadioButton -->

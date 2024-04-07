@@ -1,5 +1,5 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="CheckBoxForeground" Color="#1C1F23" />
+    <StaticResource x:Key="CheckBoxForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="CheckBoxDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="CheckBoxGlyphFill" Color="White" />

@@ -1,5 +1,5 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="TextBlockDefaultForeground" Color="#1C1F23" />
+    <StaticResource x:Key="TextBlockDefaultForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="TextBlockSecondaryForeground" ResourceKey="SemiColorText1" />
     <StaticResource x:Key="TextBlockTertiaryForeground" ResourceKey="SemiColorText2" />
     <StaticResource x:Key="TextBlockQuaternaryForeground" ResourceKey="SemiColorText3" />

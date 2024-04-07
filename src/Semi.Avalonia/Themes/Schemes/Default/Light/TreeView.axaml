@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="TreeViewItemDefaultForeground" Color="#1C1F23" />
+    <StaticResource x:Key="TreeViewItemDefaultForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="TreeViewItemIconDefaultForeground" ResourceKey="SemiColorText2" />
-    <SolidColorBrush x:Key="TreeViewItemIconHoverForeground" Color="#1C1F23" />
+    <StaticResource x:Key="TreeViewItemIconHoverForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="TreeViewItemDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="TreeViewItemDefaultBackground" Color="Transparent" />

@@ -35,7 +35,7 @@
 
     <SolidColorBrush x:Key="ListBoxItemRadioGroupCheckGlyphFill" Color="White" />
 
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupForeground" Color="#1C1F23" />
+    <StaticResource x:Key="ListBoxItemRadioGroupForeground" ResourceKey="SemiColorText0" />
     <SolidColorBrush x:Key="ListBoxItemRadioGroupDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="ListBoxItemRadioGroupDefaultBorderBrush" ResourceKey="SemiColorText3" />
 
@@ -44,7 +44,7 @@
     <StaticResource x:Key="ListBoxItemRadioGroupButtonUncheckedPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonUncheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedForeground" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupButtonCheckedBackground" Color="White" />
+    <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedBackground" ResourceKey="SemiColorBackground3" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <!-- CardRadioGroupListBox -->
@@ -58,7 +58,7 @@
     <StaticResource x:Key="ListBoxItemRadioGroupCardUncheckPressedBackground" ResourceKey="SemiColorFill1" />
 
     <!-- CheckGroupListBox -->
-    <SolidColorBrush x:Key="ListBoxItemCheckForeground" Color="#1C1F23" />
+    <StaticResource x:Key="ListBoxItemCheckForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="ListBoxItemCheckDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="ListBoxItemCheckGlyphFill" Color="White" />

@@ -2,13 +2,13 @@
     <StaticResource x:Key="MenuFlyoutScrollViewerIconForeground" ResourceKey="SemiColorText2" />
 
     <!--  MenuFlyout  -->
-    <SolidColorBrush x:Key="MenuFlyoutBackground" Color="White" />
+    <StaticResource x:Key="MenuFlyoutBackground" ResourceKey="SemiColorBackground2" />
     <StaticResource x:Key="MenuFlyoutBorderBrush" ResourceKey="SemiColorBorder" />
     <BoxShadows x:Key="MenuFlyoutBorderBoxShadow">0 0 8 0 #1A000000</BoxShadows>
 
     <!--  MenuItem  -->
-    <SolidColorBrush x:Key="MenuItemBackground" Color="White" />
-    <SolidColorBrush x:Key="MenuItemForeground" Color="#1C1F23" />
+    <StaticResource x:Key="MenuItemBackground" ResourceKey="SemiColorBackground2" />
+    <StaticResource x:Key="MenuItemForeground" ResourceKey="SemiColorText0" />
 
     <StaticResource x:Key="MenuItemSeparatorBackground" ResourceKey="SemiColorBorder" />
     <StaticResource x:Key="MenuItemPointeroverBackground" ResourceKey="SemiColorFill0" />
@@ -16,7 +16,7 @@
 
     <SolidColorBrush x:Key="MenuItemInputGestureTextForeground" Color="Gray" />
     <StaticResource x:Key="MenuItemExpandIconForeground" ResourceKey="SemiColorText2" />
-    <SolidColorBrush x:Key="MenuItemExpandIconOpenForeground" Color="#1C1F23" />
+    <StaticResource x:Key="MenuItemExpandIconOpenForeground" ResourceKey="SemiColorText0" />
 
     <StaticResource x:Key="MenuItemDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="MenuItemDisabledInputGestureTextForeground" Opacity="0.2" Color="#1C1F23" />

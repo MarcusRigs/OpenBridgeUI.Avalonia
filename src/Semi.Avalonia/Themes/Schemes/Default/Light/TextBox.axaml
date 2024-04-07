@@ -6,7 +6,7 @@
     <StaticResource x:Key="TextBoxPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="TextBoxPressedBackground" ResourceKey="SemiColorFill2" />
     <StaticResource x:Key="TextBoxFocusBorderBrush" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="TextBoxForeground" Color="#1C1F23" />
+    <StaticResource x:Key="TextBoxForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="TextBoxInnerForeground" ResourceKey="SemiColorText2" />
 
     <StaticResource x:Key="TextBoxButtonDefaultForeground" ResourceKey="SemiColorBorder" />

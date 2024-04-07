@@ -1,5 +1,5 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="ButtonSpinnerRepeatButtonBackground" Color="White" />
+    <StaticResource x:Key="ButtonSpinnerRepeatButtonBackground" ResourceKey="SemiColorBackground2" />
     <StaticResource x:Key="ButtonSpinnerRepeatButtonPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="ButtonSpinnerRepeatButtonPressedBackground" ResourceKey="SemiColorFill2" />
     <StaticResource x:Key="ButtonSpinnerRepeatButtonDisabledBackground" ResourceKey="SemiColorFill0" />

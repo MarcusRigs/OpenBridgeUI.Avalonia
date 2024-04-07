@@ -7,5 +7,5 @@
 
     <StaticResource x:Key="TabItemLineHeaderForeground" ResourceKey="SemiColorText2" />
     <StaticResource x:Key="TabItemLineHeaderPointeroverForeground" ResourceKey="SemiColorText1" />
-    <SolidColorBrush x:Key="TabItemLineHeaderSelectedForeground" Color="#1C1F23" />
+    <StaticResource x:Key="TabItemLineHeaderSelectedForeground" ResourceKey="SemiColorText0" />
 </ResourceDictionary>
