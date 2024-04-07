@@ -2,6 +2,6 @@
     <SolidColorBrush x:Key="HyperlinkButtonForeground" Color="#1C1F23" />
     <SolidColorBrush x:Key="HyperlinkButtonDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="HyperlinkButtonOverForeground" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="HyperlinkButtonDisabledForeground" Color="#1C1F23" Opacity="0.35" />
+    <StaticResource x:Key="HyperlinkButtonDisabledForeground" ResourceKey="SemiColorDisabledText"  />
     <SolidColorBrush x:Key="HyperlinkButtonVisitedForeground" Color="#681DA8" />
 </ResourceDictionary>

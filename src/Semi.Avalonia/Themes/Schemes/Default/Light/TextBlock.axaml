@@ -1,12 +1,12 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <SolidColorBrush x:Key="TextBlockDefaultForeground" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TextBlockSecondaryForeground" Opacity="0.8" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TextBlockTertiaryForeground" Opacity="0.62" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TextBlockQuaternaryForeground" Opacity="0.35" Color="#1C1F23" />
+    <StaticResource x:Key="TextBlockSecondaryForeground" ResourceKey="SemiColorText1" />
+    <StaticResource x:Key="TextBlockTertiaryForeground" ResourceKey="SemiColorText2" />
+    <StaticResource x:Key="TextBlockQuaternaryForeground" ResourceKey="SemiColorText3" />
     <StaticResource x:Key="TextBlockSuccessForeground" ResourceKey="SemiColorSuccess" />
     <StaticResource x:Key="TextBlockWarningForeground" ResourceKey="SemiColorWarning" />
     <StaticResource x:Key="TextBlockDangerForeground" ResourceKey="SemiColorDanger" />
-    <SolidColorBrush x:Key="TextBlockDisabledForeground" Opacity="0.35" Color="#1C1F23" />
+    <StaticResource x:Key="TextBlockDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="TextBlockCodeForeground" Opacity="0.68" Color="#1C1F23" />
     <StaticResource x:Key="TextBlockMarkBackground" ResourceKey="SemiColorInformationLight" />
     <SolidColorBrush x:Key="TextBlockCodeBackground" Opacity="0.1" Color="#2E3238" />

@@ -2,10 +2,10 @@
     <!--  Line  -->
     <SolidColorBrush x:Key="TabItemLinePipeBackground" Color="Transparent" />
     <StaticResource x:Key="TabItemLinePipeSelectedBackground" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="TabItemLinePipePointeroverBorderBrush" Opacity="0.09" Color="#2E3238" />
-    <SolidColorBrush x:Key="TabItemLinePipePressedBorderBrush" Opacity="0.13" Color="#2E3238" />
+    <StaticResource x:Key="TabItemLinePipePointeroverBorderBrush" ResourceKey="SemiColorFill1" />
+    <StaticResource x:Key="TabItemLinePipePressedBorderBrush" ResourceKey="SemiColorFill2" />
 
-    <SolidColorBrush x:Key="TabItemLineHeaderForeground" Opacity="0.62" Color="#1C1F23" />
-    <SolidColorBrush x:Key="TabItemLineHeaderPointeroverForeground" Opacity="0.8" Color="#1C1F23" />
+    <StaticResource x:Key="TabItemLineHeaderForeground" ResourceKey="SemiColorText2" />
+    <StaticResource x:Key="TabItemLineHeaderPointeroverForeground" ResourceKey="SemiColorText1" />
     <SolidColorBrush x:Key="TabItemLineHeaderSelectedForeground" Color="#1C1F23" />
 </ResourceDictionary>

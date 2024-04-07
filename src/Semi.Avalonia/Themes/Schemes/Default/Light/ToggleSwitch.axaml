@@ -1,15 +1,15 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDefaultBackground" Opacity="0.05" Color="#2E3238" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedPointeroverBackground" Opacity="0.09" Color="#2E3238" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedPressedBackground" Opacity="0.13" Color="#2E3238" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedDefaultBackground" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedPointeroverBackground" ResourceKey="SemiColorFill1" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedPressedBackground" ResourceKey="SemiColorFill2" />
     <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBackground" Color="Transparent" />
 
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" Opacity="0.09" Color="#1C1F23" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" ResourceKey="SemiColorFill1" />
 
     <SolidColorBrush x:Key="ToggleSwitchContainerCheckedDefaultBackground" Color="#5FB346" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPointeroverBackground" ResourceKey="SemiColorSuccessPointerover" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPressedBackground" ResourceKey="SemiColorSuccessPressed" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedDisabledBackground" ResourceKey="SemiColorSuccessDisabled" />
 
-    <SolidColorBrush x:Key="ToggleSwitchIndicatorBorderBrush" Opacity="0.09" Color="#1C1F23" />
+    <StaticResource x:Key="ToggleSwitchIndicatorBorderBrush" ResourceKey="SemiColorFill1" />
 </ResourceDictionary>

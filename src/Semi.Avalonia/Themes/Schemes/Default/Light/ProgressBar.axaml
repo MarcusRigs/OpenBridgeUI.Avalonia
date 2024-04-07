@@ -1,6 +1,6 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StaticResource x:Key="ProgressBarIndicatorBrush" ResourceKey="SemiColorInformation" />
-    <SolidColorBrush x:Key="ProgressBarBackground" Opacity="0.05" Color="#2E3238" />
+    <StaticResource x:Key="ProgressBarBackground" ResourceKey="SemiColorFill0" />
     <SolidColorBrush x:Key="ProgressBarTextForeground" Color="#1C1F23" />
     <SolidColorBrush x:Key="ProgressBarOuterTextForeground" Color="#1C1F23" />
     <SolidColorBrush x:Key="ProgressBarRootBorderBrush" Color="Transparent" />
