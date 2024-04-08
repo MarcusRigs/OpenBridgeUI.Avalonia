@@ -17,10 +17,10 @@
     <StaticResource x:Key="DateTimePickerButtonForeground" ResourceKey="SemiColorText0" />
 
     <StaticResource x:Key="DateTimePickerIconForeground" ResourceKey="SemiColorText2" />
-    <SolidColorBrush x:Key="DateTimePickerEmptyForeground" Opacity="0.5" Color="#1C1F23" />
+    <SolidColorBrush x:Key="DateTimePickerEmptyForeground" Opacity="0.5" Color="{StaticResource SemiGrey9Color}" />
 
     <StaticResource x:Key="DateTimePickerButtonPointeroverBackground" ResourceKey="SemiColorFill1" />
     <SolidColorBrush x:Key="DateTimePickerButtonDisabledBorderBrush" Color="Transparent" />
     <StaticResource x:Key="DateTimePickerButtonDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <SolidColorBrush x:Key="DateTimePickerButtonDisabledIconForeground" Opacity="0.4" Color="#2E3238" />
+    <SolidColorBrush x:Key="DateTimePickerButtonDisabledIconForeground" Opacity="0.4" Color="{StaticResource SemiGrey8Color}" />
 </ResourceDictionary>

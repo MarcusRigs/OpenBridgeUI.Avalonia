@@ -71,7 +71,7 @@
     <StaticResource x:Key="ButtonSolidDangerPressedBorderBrush" ResourceKey="SemiColorDangerPressed" />
     <!--  end Solid  -->
 
-    <StaticResource x:Key="ButtonInputInnerForeground" ResourceKey="SemiGrey5" />
-    <StaticResource x:Key="ButtonInputInnerPointeroverForeground" ResourceKey="SemiGrey6" />
-    <StaticResource x:Key="ButtonInputInnerPressedForeground" ResourceKey="SemiGrey7" />
+    <SolidColorBrush x:Key="ButtonInputInnerForeground" Color="{StaticResource SemiGrey5Color}" />
+    <SolidColorBrush x:Key="ButtonInputInnerPointeroverForeground" Color="{StaticResource SemiGrey6Color}" />
+    <SolidColorBrush x:Key="ButtonInputInnerPressedForeground" Color="{StaticResource SemiGrey7Color}" />
 </ResourceDictionary>

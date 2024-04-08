@@ -6,7 +6,7 @@
     <StaticResource x:Key="CalendarDatePickerPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="CalendarDatePickerFocusBorderBrush" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="CalendarDatePickerDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <SolidColorBrush x:Key="CalendarDatePickerDisabledIconForeground" Opacity="0.4" Color="#2E3238" />
+    <SolidColorBrush x:Key="CalendarDatePickerDisabledIconForeground" Opacity="0.4" Color="{StaticResource SemiGrey8Color}" />
     <BoxShadows x:Key="CalendarDatePickerPopupBoxShadows">0 0 8 0 #1A000000</BoxShadows>
 
     <SolidColorBrush x:Key="CalendarDatePickerBorderedDefaultBackground" Color="Transparent" />

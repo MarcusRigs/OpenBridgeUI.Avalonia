@@ -34,7 +34,7 @@
     <SolidColorBrush x:Key="LabelTagLightGreyBackground" Opacity="0.15" Color="{StaticResource SemiGrey5Color}" />
     <StaticResource x:Key="LabelTagLightWhiteForeground" ResourceKey="SemiColorText0" />
     <SolidColorBrush x:Key="LabelTagLightWhiteBackground" Opacity="0.15" Color="White" />
-    <SolidColorBrush x:Key="LabelTagLightWhiteBorderBrush" Color="#C6CACD" />
+    <SolidColorBrush x:Key="LabelTagLightWhiteBorderBrush" Color="{StaticResource SemiGrey2Color}" />
 
     <SolidColorBrush x:Key="LabelTagGhostRedBorderBrush" Color="{StaticResource SemiRed4Color}" />
     <SolidColorBrush x:Key="LabelTagGhostRedForeground" Color="{StaticResource SemiRed5Color}" />
@@ -68,7 +68,7 @@
     <SolidColorBrush x:Key="LabelTagGhostOrangeForeground" Color="{StaticResource SemiOrange5Color}" />
     <SolidColorBrush x:Key="LabelTagGhostGreyBorderBrush" Color="{StaticResource SemiGrey4Color}" />
     <SolidColorBrush x:Key="LabelTagGhostGreyForeground" Color="{StaticResource SemiGrey5Color}" />
-    <SolidColorBrush x:Key="LabelTagGhostWhiteBorderBrush" Color="#C6CACD" />
+    <SolidColorBrush x:Key="LabelTagGhostWhiteBorderBrush" Color="{StaticResource SemiGrey2Color}" />
     <StaticResource x:Key="LabelTagGhostWhiteForeground" ResourceKey="SemiColorText0" />
 
     <SolidColorBrush x:Key="LabelTagSolidForeground" Color="White" />
@@ -90,6 +90,6 @@
     <SolidColorBrush x:Key="LabelTagSolidGreyBackground" Color="{StaticResource SemiGrey5Color}" />
 
     <StaticResource x:Key="LabelTagSolidWhiteBackground" ResourceKey="SemiColorBackground4" />
-    <SolidColorBrush x:Key="LabelTagSolidWhiteBorderBrush" Color="#C6CACD" />
+    <SolidColorBrush x:Key="LabelTagSolidWhiteBorderBrush" Color="{StaticResource SemiGrey2Color}" />
     <StaticResource x:Key="LabelTagSolidWhiteForeground" ResourceKey="SemiColorText0" />
 </ResourceDictionary>
