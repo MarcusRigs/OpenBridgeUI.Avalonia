@@ -7,9 +7,9 @@
     <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" Opacity="0.09" Color="#F9F9F9" />
 
     <SolidColorBrush x:Key="ToggleSwitchContainerCheckedDefaultBackground" Color="#5FB346" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerCheckedPointeroverBackground" Color="#7FD184" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerCheckedPressedBackground" Color="#A6E1A8" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerCheckedDisabledBackground" Color="#277731" />
+    <StaticResource x:Key="ToggleSwitchContainerCheckedPointeroverBackground" ResourceKey="SemiColorSuccessPointerover" />
+    <StaticResource x:Key="ToggleSwitchContainerCheckedPressedBackground" ResourceKey="SemiColorSuccessPressed" />
+    <StaticResource x:Key="ToggleSwitchContainerCheckedDisabledBackground" ResourceKey="SemiColorSuccessDisabled" />
 
     <SolidColorBrush x:Key="ToggleSwitchIndicatorBorderBrush" Opacity="0.09" Color="#F9F9F9" />
 </ResourceDictionary>

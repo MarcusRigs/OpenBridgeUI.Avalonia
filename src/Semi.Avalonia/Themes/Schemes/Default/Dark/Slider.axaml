@@ -1,12 +1,12 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="SliderTrackForeground" Color="#54A9FF" />
+    <StaticResource x:Key="SliderTrackForeground" ResourceKey="SemiColorInformation" />
     <SolidColorBrush x:Key="SliderTrackBackground" Opacity="0.12" Color="White" />
 
     <SolidColorBrush x:Key="SliderTickForeground" Color="#41464C" />
     <SolidColorBrush x:Key="SliderThumbBackground" Color="White" />
-    <SolidColorBrush x:Key="SliderThumbBorderBrush" Color="#54A9FF" />
-    <SolidColorBrush x:Key="SliderThumbPointeroverBorderBrush" Color="#7FC1FF" />
-    <SolidColorBrush x:Key="SliderThumbPressedBorderBrush" Color="#A9D7FF" />
+    <StaticResource x:Key="SliderThumbBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="SliderThumbPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="SliderThumbPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <SolidColorBrush x:Key="SliderTrackDisabledForeground" Color="#FF41464C" />
     <SolidColorBrush x:Key="SliderThumbDisabledBorderBrush" Color="#0A4694" />

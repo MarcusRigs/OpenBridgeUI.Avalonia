@@ -10,7 +10,7 @@
     <SolidColorBrush x:Key="CalendarItemCalendarButtonBorderBrush" Color="Transparent" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonPointeroverBackground" Opacity="0.16" Color="White" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonPressedBackground" Opacity="0.20" Color="White" />
-    <SolidColorBrush x:Key="CalendarItemCalendarButtonSelectedBackground" Color="#54A9FF" />
+    <StaticResource x:Key="CalendarItemCalendarButtonSelectedBackground" ResourceKey="SemiColorInformation" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonSelectedForeground" Color="#232429" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonBlackoutForeground" Opacity="0.35" Color="#F9F9F9" />
@@ -23,10 +23,10 @@
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonPointeroverBackground" Opacity="0.16" Color="White" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonPressedBackground" Opacity="0.20" Color="White" />
 
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonSelectedBackground" Color="#54A9FF" />
+    <StaticResource x:Key="CalendarItemCalendarDayButtonSelectedBackground" ResourceKey="SemiColorInformation" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonSelectedForeground" Color="#232429" />
 
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonTodayForeground" Color="#54A9FF" />
+    <StaticResource x:Key="CalendarItemCalendarDayButtonTodayForeground" ResourceKey="SemiColorInformation" />
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonTodayBackground" Opacity="0.12" Color="White" />
 
     <SolidColorBrush x:Key="CalendarItemCalendarDayButtonDisabledForeground" Opacity="0.35" Color="#F9F9F9" />

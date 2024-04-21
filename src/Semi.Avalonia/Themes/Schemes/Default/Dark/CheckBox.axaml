@@ -8,27 +8,27 @@
     <SolidColorBrush x:Key="CheckBoxDefaultBackground" Color="Transparent" />
     <SolidColorBrush x:Key="CheckBoxDefaultBorderBrush" Opacity="0.35" Color="#F9F9F9" />
     <SolidColorBrush x:Key="CheckBoxPointeroverBackground" Opacity="0.12" Color="White" />
-    <SolidColorBrush x:Key="CheckBoxPointeroverBorderBrush" Color="#54A9FF" />
-    <SolidColorBrush x:Key="CheckBoxPressedBackground" Color="#A9D7FF" />
-    <SolidColorBrush x:Key="CheckBoxPressedBorderBrush" Color="#A9D7FF" />
+    <StaticResource x:Key="CheckBoxPointeroverBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxPressedBackground" ResourceKey="SemiColorInformationPressed" />
+    <StaticResource x:Key="CheckBoxPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
-    <SolidColorBrush x:Key="CheckBoxCheckedDefaultBackground" Color="#54A9FF" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDefaultBorderBrush" Color="#54A9FF" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPointeroverBackground" Color="#7FC1FF" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPointeroverBorderBrush" Color="#7FC1FF" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPressedBackground" Color="#A9D7FF" />
-    <SolidColorBrush x:Key="CheckBoxCheckedPressedBorderBrush" Color="#A9D7FF" />
+    <StaticResource x:Key="CheckBoxCheckedDefaultBackground" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCheckedDefaultBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCheckedPointeroverBackground" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCheckedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCheckedPressedBackground" ResourceKey="SemiColorInformationPressed" />
+    <StaticResource x:Key="CheckBoxCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <SolidColorBrush x:Key="CheckBoxDefaultDisabledBackground" Opacity="0.04" Color="#E6E8EA" />
     <SolidColorBrush x:Key="CheckBoxDefaultDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDisabledBackground" Color="#135cb8" />
-    <SolidColorBrush x:Key="CheckBoxCheckedDisabledBorderBrush" Color="#135cb8" />
+    <StaticResource x:Key="CheckBoxCheckedDisabledBackground" ResourceKey="SemiColorInformationDisabled" />
+    <StaticResource x:Key="CheckBoxCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
 
-    <SolidColorBrush x:Key="CheckBoxCardCheckedBackground" Opacity="0.2" Color="#FF54A9FF" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedBorderBrush" Color="#FF54A9FF" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedDisabledBorderBrush" Color="#FF135CB8" />
+    <StaticResource x:Key="CheckBoxCardCheckedBackground" ResourceKey="SemiColorInformationLight" />
+    <StaticResource x:Key="CheckBoxCardCheckedBorderBrush" ResourceKey="SemiColorInformation" />
+    <StaticResource x:Key="CheckBoxCardCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
     <SolidColorBrush x:Key="CheckBoxCardPointeroverBackground" Opacity="0.05" Color="#FFFFFFFF" />
     <SolidColorBrush x:Key="CheckBoxCardPressedBackground" Opacity="0.09" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedPointeroverBorderBrush" Color="#FF7FC1FF" />
-    <SolidColorBrush x:Key="CheckBoxCardCheckedPressedBorderBrush" Color="#FFA9D7FF" />
+    <StaticResource x:Key="CheckBoxCardCheckedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="CheckBoxCardCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 </ResourceDictionary>
