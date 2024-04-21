@@ -10,7 +10,7 @@
     <BoxShadows x:Key="CalendarDatePickerPopupBoxShadows">0 0 8 0 #1AFFFFFF</BoxShadows>
 
     <SolidColorBrush x:Key="CalendarDatePickerBorderedDefaultBackground" Color="Transparent" />
-    <StaticResource x:Key="CalendarDatePickerBorderedDefaultBorderBrush" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="CalendarDatePickerBorderedDefaultBorderBrush" ResourceKey="SemiColorBorder" />
     <SolidColorBrush x:Key="CalendarDatePickerBorderedPointeroverBackground" Color="Transparent" />
-    <SolidColorBrush x:Key="CalendarDatePickerBorderedPointeroverBorderBrush" Color="#0062D6" />
+    <StaticResource x:Key="CalendarDatePickerBorderedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
 </ResourceDictionary>

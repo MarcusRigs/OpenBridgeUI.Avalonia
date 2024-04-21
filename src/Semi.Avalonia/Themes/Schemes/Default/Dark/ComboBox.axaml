@@ -30,9 +30,9 @@
     <StaticResource x:Key="ComboBoxItemSelectedDisabledBackground" ResourceKey="SemiColorDisabledFill" />
 
     <SolidColorBrush x:Key="ComboBoxSelectorBorderedBackground" Color="Transparent" />
-    <StaticResource x:Key="ComboBoxSelectorBorderedBorderBrush" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ComboBoxSelectorBorderedBorderBrush" ResourceKey="SemiColorBorder" />
     <SolidColorBrush x:Key="ComboBoxSelectorBorderedPointeroverBackground" Color="Transparent" />
     <StaticResource x:Key="ComboBoxSelectorBorderedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <SolidColorBrush x:Key="ComboBoxSelectorBorderedPressedBackground" Color="Transparent" />
-    <StaticResource x:Key="ComboBoxSelectorBorderedPressedBorderBrush" ResourceKey="SemiColorInformationPointerover" />
+    <StaticResource x:Key="ComboBoxSelectorBorderedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 </ResourceDictionary>

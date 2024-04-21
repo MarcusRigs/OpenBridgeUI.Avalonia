@@ -4,12 +4,12 @@
     <StaticResource x:Key="ToggleSwitchContainerUnCheckedPressedBackground" ResourceKey="SemiColorFill2" />
     <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBackground" Color="Transparent" />
 
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" Opacity="0.09" Color="#F9F9F9" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" ResourceKey="SemiColorFill1" />
 
     <SolidColorBrush x:Key="ToggleSwitchContainerCheckedDefaultBackground" Color="#5FB346" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPointeroverBackground" ResourceKey="SemiColorSuccessPointerover" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPressedBackground" ResourceKey="SemiColorSuccessPressed" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedDisabledBackground" ResourceKey="SemiColorSuccessDisabled" />
 
-    <SolidColorBrush x:Key="ToggleSwitchIndicatorBorderBrush" Opacity="0.09" Color="#F9F9F9" />
+    <StaticResource x:Key="ToggleSwitchIndicatorBorderBrush" ResourceKey="SemiColorFill1" />
 </ResourceDictionary>

@@ -87,8 +87,8 @@
     <StaticResource x:Key="ListBoxItemCheckCardCheckedBackground" ResourceKey="SemiColorInformationLight" />
     <StaticResource x:Key="ListBoxItemCheckCardCheckedBorderBrush" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="ListBoxItemCheckCardCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
-    <SolidColorBrush x:Key="ListBoxItemCheckCardPointeroverBackground" Opacity="0.05" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ListBoxItemCheckCardPressedBackground" Opacity="0.09" Color="#FFFFFFFF" />
+    <StaticResource x:Key="ListBoxItemCheckCardPointeroverBackground" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ListBoxItemCheckCardPressedBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="ListBoxItemCheckCardCheckedPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <StaticResource x:Key="ListBoxItemCheckCardCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 </ResourceDictionary>
