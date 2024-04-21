@@ -1,5 +1,5 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="CheckBoxForeground" Color="#F9F9F9" />
+    <StaticResource x:Key="CheckBoxForeground" ResourceKey="SemiColorText0" />
     <SolidColorBrush x:Key="CheckBoxDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
 
     <SolidColorBrush x:Key="CheckBoxGlyphFill" Color="White" />
@@ -7,7 +7,7 @@
 
     <SolidColorBrush x:Key="CheckBoxDefaultBackground" Color="Transparent" />
     <SolidColorBrush x:Key="CheckBoxDefaultBorderBrush" Opacity="0.35" Color="#F9F9F9" />
-    <SolidColorBrush x:Key="CheckBoxPointeroverBackground" Opacity="0.12" Color="White" />
+    <StaticResource x:Key="CheckBoxPointeroverBackground" ResourceKey="SemiColorFill0" />
     <StaticResource x:Key="CheckBoxPointeroverBorderBrush" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="CheckBoxPressedBackground" ResourceKey="SemiColorInformationPressed" />
     <StaticResource x:Key="CheckBoxPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
@@ -19,7 +19,7 @@
     <StaticResource x:Key="CheckBoxCheckedPressedBackground" ResourceKey="SemiColorInformationPressed" />
     <StaticResource x:Key="CheckBoxCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
-    <SolidColorBrush x:Key="CheckBoxDefaultDisabledBackground" Opacity="0.04" Color="#E6E8EA" />
+    <StaticResource x:Key="CheckBoxDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
     <SolidColorBrush x:Key="CheckBoxDefaultDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
     <StaticResource x:Key="CheckBoxCheckedDisabledBackground" ResourceKey="SemiColorInformationDisabled" />
     <StaticResource x:Key="CheckBoxCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />

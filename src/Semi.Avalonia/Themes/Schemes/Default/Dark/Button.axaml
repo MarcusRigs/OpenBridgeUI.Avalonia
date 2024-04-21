@@ -8,10 +8,10 @@
     <StaticResource x:Key="ButtonDefaultDangerForeground" ResourceKey="SemiColorDanger" />
     <SolidColorBrush x:Key="ButtonDefaultDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
 
-    <SolidColorBrush x:Key="ButtonDefaultBackground" Opacity="0.12" Color="White" />
-    <SolidColorBrush x:Key="ButtonDefaultPointeroverBackground" Opacity="0.16" Color="White" />
-    <SolidColorBrush x:Key="ButtonDefaultPressedBackground" Opacity="0.20" Color="White" />
-    <SolidColorBrush x:Key="ButtonDefaultDisabledBackground" Opacity="0.04" Color="#E6E8EA" />
+    <StaticResource x:Key="ButtonDefaultBackground" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ButtonDefaultPointeroverBackground" ResourceKey="SemiColorFill1" />
+    <StaticResource x:Key="ButtonDefaultPressedBackground" ResourceKey="SemiColorFill2" />
+    <StaticResource x:Key="ButtonDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
 
     <SolidColorBrush x:Key="ButtonDefaultBorderBrush" Color="Transparent" />
     <SolidColorBrush x:Key="ButtonDefaultPointeroverBorderBrush" Color="Transparent" />

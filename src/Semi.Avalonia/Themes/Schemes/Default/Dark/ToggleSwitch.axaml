@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDefaultBackground" Opacity="0.12" Color="White" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedPointeroverBackground" Opacity="0.16" Color="White" />
-    <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedPressedBackground" Opacity="0.20" Color="White" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedDefaultBackground" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedPointeroverBackground" ResourceKey="SemiColorFill1" />
+    <StaticResource x:Key="ToggleSwitchContainerUnCheckedPressedBackground" ResourceKey="SemiColorFill2" />
     <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBackground" Color="Transparent" />
 
     <SolidColorBrush x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" Opacity="0.09" Color="#F9F9F9" />

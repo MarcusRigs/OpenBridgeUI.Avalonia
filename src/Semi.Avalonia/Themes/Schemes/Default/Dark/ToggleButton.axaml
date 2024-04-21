@@ -1,8 +1,8 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="ToggleButtonDefaultBackground" Opacity="0.12" Color="White" />
-    <SolidColorBrush x:Key="ToggleButtonDefaultPointeroverBackground" Opacity="0.16" Color="White" />
-    <SolidColorBrush x:Key="ToggleButtonDefaultPressedBackground" Opacity="0.20" Color="White" />
-    <SolidColorBrush x:Key="ToggleButtonDefaultDisabledBackground" Opacity="0.04" Color="#E6E8EA" />
+    <StaticResource x:Key="ToggleButtonDefaultBackground" ResourceKey="SemiColorFill0" />
+    <StaticResource x:Key="ToggleButtonDefaultPointeroverBackground" ResourceKey="SemiColorFill1" />
+    <StaticResource x:Key="ToggleButtonDefaultPressedBackground" ResourceKey="SemiColorFill2" />
+    <StaticResource x:Key="ToggleButtonDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
     <SolidColorBrush x:Key="ToggleButtonDefaultDisabledBorderBrush" Color="Transparent" />
     <SolidColorBrush x:Key="ToggleButtonDefaultDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
 
