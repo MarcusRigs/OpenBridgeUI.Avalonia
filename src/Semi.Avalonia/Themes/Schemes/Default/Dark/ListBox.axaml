@@ -21,7 +21,7 @@
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconDefaultBorderBrush" ResourceKey="SemiColorText3" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupUncheckIconDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconDisabledBorderBrush" ResourceKey="SemiColorBorder" />
 
 
     <StaticResource x:Key="ListBoxItemRadioGroupCheckIconDefaultBackground" ResourceKey="SemiColorInformation" />
@@ -79,7 +79,7 @@
     <StaticResource x:Key="ListBoxItemCheckCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <StaticResource x:Key="ListBoxItemCheckDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <SolidColorBrush x:Key="ListBoxItemCheckDefaultDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemCheckDefaultDisabledBorderBrush" ResourceKey="SemiColorBorder" />
     <StaticResource x:Key="ListBoxItemCheckCheckedDisabledBackground" ResourceKey="SemiColorInformationDisabled" />
     <StaticResource x:Key="ListBoxItemCheckCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
 

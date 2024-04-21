@@ -9,7 +9,7 @@
     <StaticResource x:Key="DateTimePickerFlyoutButtonPointeroverBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="DateTimePickerFlyoutButtonPressedBackground" ResourceKey="SemiColorFill2" />
 
-    <SolidColorBrush x:Key="DateTimePickerSeparatorBackground" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="DateTimePickerSeparatorBackground" ResourceKey="SemiColorBorder" />
 
 
     <SolidColorBrush x:Key="DateTimePickerButtonBorderBrush" Color="Transparent" />

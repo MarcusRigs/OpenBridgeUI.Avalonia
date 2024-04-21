@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StaticResource x:Key="CalendarBackground" ResourceKey="SemiColorBackground1" />
     <StaticResource x:Key="CalendarForeground" ResourceKey="SemiColorText0" />
-    <SolidColorBrush x:Key="CalendarBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="CalendarBorderBrush" ResourceKey="SemiColorBorder" />
     <StaticResource x:Key="CalendarItemWeekDayNameForeground" ResourceKey="SemiColorText2" />
     <StaticResource x:Key="CalendarItemIconForeground" ResourceKey="SemiColorText2" />
 

@@ -4,5 +4,5 @@
     <StaticResource x:Key="ButtonSpinnerRepeatButtonPressedBackground" ResourceKey="SemiColorFill1" />
     <SolidColorBrush x:Key="ButtonSpinnerRepeatButtonDisabledBackground" Opacity="0.04" Color="#FF2E3238" />
     <StaticResource x:Key="ButtonSpinnerRepeatButtonForeground" ResourceKey="SemiColorText2" />
-    <SolidColorBrush x:Key="ButtonSpinnerRepeatButtonBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="ButtonSpinnerRepeatButtonBorderBrush" ResourceKey="SemiColorBorder" />
 </ResourceDictionary>

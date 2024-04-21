@@ -16,7 +16,7 @@
 
     <BoxShadows x:Key="ComboBoxPopupBoxShadow">0 0 8 0 #1AFFFFFF</BoxShadows>
     <StaticResource x:Key="ComboBoxPopupBackground" ResourceKey="SemiColorBackground2" />
-    <SolidColorBrush x:Key="ComboBoxPopupBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="ComboBoxPopupBorderBrush" ResourceKey="SemiColorBorder" />
 
     <StaticResource x:Key="ComboBoxItemForeground" ResourceKey="SemiColorText0" />
 

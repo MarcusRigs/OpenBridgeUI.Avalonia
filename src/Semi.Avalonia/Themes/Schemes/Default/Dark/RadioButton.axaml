@@ -10,7 +10,7 @@
     <StaticResource x:Key="RadioButtonUncheckIconDefaultBorderBrush" ResourceKey="SemiColorText3" />
     <StaticResource x:Key="RadioButtonUncheckIconPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <StaticResource x:Key="RadioButtonUncheckIconPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
-    <SolidColorBrush x:Key="RadioButtonUncheckIconDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="RadioButtonUncheckIconDisabledBorderBrush" ResourceKey="SemiColorBorder" />
 
 
     <StaticResource x:Key="RadioButtonCheckIconDefaultBackground" ResourceKey="SemiColorInformation" />

@@ -20,7 +20,7 @@
     <StaticResource x:Key="CheckBoxCheckedPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <StaticResource x:Key="CheckBoxDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <SolidColorBrush x:Key="CheckBoxDefaultDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="CheckBoxDefaultDisabledBorderBrush" ResourceKey="SemiColorBorder" />
     <StaticResource x:Key="CheckBoxCheckedDisabledBackground" ResourceKey="SemiColorInformationDisabled" />
     <StaticResource x:Key="CheckBoxCheckedDisabledBorderBrush" ResourceKey="SemiColorInformationDisabled" />
 

@@ -3,14 +3,14 @@
 
     <!--  MenuFlyout  -->
     <StaticResource x:Key="MenuFlyoutBackground" ResourceKey="SemiColorBackground2" />
-    <SolidColorBrush x:Key="MenuFlyoutBorderBrush" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="MenuFlyoutBorderBrush" ResourceKey="SemiColorBorder" />
     <BoxShadows x:Key="MenuFlyoutBorderBoxShadow">0 0 8 0 #1AFFFFFF</BoxShadows>
 
     <!--  MenuItem  -->
     <StaticResource x:Key="MenuItemBackground" ResourceKey="SemiColorBackground2" />
     <SolidColorBrush x:Key="MenuItemForeground" Color="#F9F9F9" />
 
-    <SolidColorBrush x:Key="MenuItemSeparatorBackground" Opacity="0.08" Color="#F9F9F9" />
+    <StaticResource x:Key="MenuItemSeparatorBackground" ResourceKey="SemiColorBorder" />
     <StaticResource x:Key="MenuItemPointeroverBackground" ResourceKey="SemiColorFill0" />
     <StaticResource x:Key="MenuItemPressedBackground" ResourceKey="SemiColorFill1" />
 
