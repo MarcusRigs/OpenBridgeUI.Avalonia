@@ -13,7 +13,7 @@
     <SolidColorBrush x:Key="TextBoxButtonPointeroverForeground" Opacity="0.4" Color="#E6E8EA" />
 
     <StaticResource x:Key="TextBoxDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <SolidColorBrush x:Key="TextBoxDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="TextBoxDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="TextBoxDisabledBorderBrush" Color="Transparent" />
 
     <SolidColorBrush x:Key="TextBoxBorderedDefaultBackground" Color="Transparent" />

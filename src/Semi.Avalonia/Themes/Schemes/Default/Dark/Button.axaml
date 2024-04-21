@@ -6,7 +6,7 @@
     <StaticResource x:Key="ButtonDefaultSuccessForeground" ResourceKey="SemiColorSuccess" />
     <StaticResource x:Key="ButtonDefaultWarningForeground" ResourceKey="SemiColorWarning" />
     <StaticResource x:Key="ButtonDefaultDangerForeground" ResourceKey="SemiColorDanger" />
-    <SolidColorBrush x:Key="ButtonDefaultDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ButtonDefaultDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <StaticResource x:Key="ButtonDefaultBackground" ResourceKey="SemiColorFill0" />
     <StaticResource x:Key="ButtonDefaultPointeroverBackground" ResourceKey="SemiColorFill1" />

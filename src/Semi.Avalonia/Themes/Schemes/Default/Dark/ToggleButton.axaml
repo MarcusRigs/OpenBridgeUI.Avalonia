@@ -4,7 +4,7 @@
     <StaticResource x:Key="ToggleButtonDefaultPressedBackground" ResourceKey="SemiColorFill2" />
     <StaticResource x:Key="ToggleButtonDefaultDisabledBackground" ResourceKey="SemiColorDisabledFill" />
     <SolidColorBrush x:Key="ToggleButtonDefaultDisabledBorderBrush" Color="Transparent" />
-    <SolidColorBrush x:Key="ToggleButtonDefaultDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ToggleButtonDefaultDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="ToggleButtonDefaultBorderBrush" Color="Transparent" />
 
@@ -80,5 +80,5 @@
     <StaticResource x:Key="ToggleButtonWarningIndeterminatePressedForeground" ResourceKey="SemiColorWarningPressed" />
     <StaticResource x:Key="ToggleButtonDangerIndeterminatePressedForeground" ResourceKey="SemiColorDangerPressed" />
 
-    <SolidColorBrush x:Key="ToggleButtonIndeterminateDisabledBorderBrush" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ToggleButtonIndeterminateDisabledBorderBrush" ResourceKey="SemiColorDisabledText" />
 </ResourceDictionary>

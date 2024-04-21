@@ -2,7 +2,7 @@
     <StaticResource x:Key="TreeViewItemDefaultForeground" ResourceKey="SemiColorText0" />
     <StaticResource x:Key="TreeViewItemIconDefaultForeground" ResourceKey="SemiColorText2" />
     <StaticResource x:Key="TreeViewItemIconHoverForeground" ResourceKey="SemiColorText0" />
-    <SolidColorBrush x:Key="TreeViewItemDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="TreeViewItemDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="TreeViewItemDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="TreeViewItemPointeroverBackground" ResourceKey="SemiColorFill0" />

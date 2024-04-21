@@ -18,7 +18,7 @@
     <StaticResource x:Key="MenuItemExpandIconForeground" ResourceKey="SemiColorText2" />
     <StaticResource x:Key="MenuItemExpandIconOpenForeground" ResourceKey="SemiColorText0" />
 
-    <SolidColorBrush x:Key="MenuItemDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="MenuItemDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="MenuItemDisabledInputGestureTextForeground" Opacity="0.2" Color="#F9F9F9" />
-    <SolidColorBrush x:Key="MenuItemDisabledExpandIconForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="MenuItemDisabledExpandIconForeground" ResourceKey="SemiColorDisabledText" />
 </ResourceDictionary>

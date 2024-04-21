@@ -6,6 +6,6 @@
     <StaticResource x:Key="TabItemLinePipePressedBorderBrush" ResourceKey="SemiColorFill2" />
 
     <StaticResource x:Key="TabItemLineHeaderForeground" ResourceKey="SemiColorText2" />
-    <SolidColorBrush x:Key="TabItemLineHeaderPointeroverForeground" Opacity="0.8" Color="#F9F9F9" />
+    <StaticResource x:Key="TabItemLineHeaderPointeroverForeground" ResourceKey="SemiColorText1" />
     <StaticResource x:Key="TabItemLineHeaderSelectedForeground" ResourceKey="SemiColorText0" />
 </ResourceDictionary>

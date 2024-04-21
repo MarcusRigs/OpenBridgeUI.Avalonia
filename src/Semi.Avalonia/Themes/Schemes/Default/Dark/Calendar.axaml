@@ -12,8 +12,8 @@
     <StaticResource x:Key="CalendarItemCalendarButtonPressedBackground" ResourceKey="SemiColorFill2" />
     <StaticResource x:Key="CalendarItemCalendarButtonSelectedBackground" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="CalendarItemCalendarButtonSelectedForeground" ResourceKey="SemiColorBackground1" />
-    <SolidColorBrush x:Key="CalendarItemCalendarButtonDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
-    <SolidColorBrush x:Key="CalendarItemCalendarButtonBlackoutForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="CalendarItemCalendarButtonDisabledForeground" ResourceKey="SemiColorDisabledText" />
+    <StaticResource x:Key="CalendarItemCalendarButtonBlackoutForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="CalendarItemCalendarButtonInactiveForeground" Opacity="0.65" Color="#F9F9F9" />
 
     <StaticResource x:Key="CalendarItemCalendarDayButtonForeground" ResourceKey="SemiColorText0" />
@@ -29,7 +29,7 @@
     <StaticResource x:Key="CalendarItemCalendarDayButtonTodayForeground" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="CalendarItemCalendarDayButtonTodayBackground" ResourceKey="SemiColorFill0" />
 
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
-    <SolidColorBrush x:Key="CalendarItemCalendarDayButtonBlackoutForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="CalendarItemCalendarDayButtonDisabledForeground" ResourceKey="SemiColorDisabledText" />
+    <StaticResource x:Key="CalendarItemCalendarDayButtonBlackoutForeground" ResourceKey="SemiColorDisabledText" />
     <StaticResource x:Key="CalendarItemCalendarDayButtonInactiveForeground" ResourceKey="SemiColorText2" />
 </ResourceDictionary>

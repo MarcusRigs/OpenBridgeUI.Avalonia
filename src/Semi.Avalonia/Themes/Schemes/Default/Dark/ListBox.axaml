@@ -1,6 +1,6 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!-- ListBox -->
-    <SolidColorBrush x:Key="ListBoxItemDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="ListBoxItemDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="ListBoxItemPointeroverBackground" ResourceKey="SemiColorFill0" />
@@ -11,14 +11,14 @@
     <StaticResource x:Key="ListBoxItemSelectedDisabledBackground" ResourceKey="SemiColorDisabledFill" />
 
     <!-- RadioGroupListBox -->
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="ListBoxItemRadioGroupUncheckIconDefaultBackground" Color="Transparent" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPointeroverBackground" ResourceKey="SemiColorFill0" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPressedBackground" ResourceKey="SemiColorFill1" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconDisabledBackground" ResourceKey="SemiColorFill0" />
 
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupUncheckIconDefaultBorderBrush" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconDefaultBorderBrush" ResourceKey="SemiColorText3" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <StaticResource x:Key="ListBoxItemRadioGroupUncheckIconPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
     <SolidColorBrush x:Key="ListBoxItemRadioGroupUncheckIconDisabledBorderBrush" Opacity="0.08" Color="#F9F9F9" />
@@ -37,15 +37,15 @@
 
     <StaticResource x:Key="ListBoxItemRadioGroupForeground" ResourceKey="SemiColorText0" />
     <SolidColorBrush x:Key="ListBoxItemRadioGroupDefaultBackground" Color="Transparent" />
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupDefaultBorderBrush" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupDefaultBorderBrush" ResourceKey="SemiColorText3" />
 
     <!-- ButtonRadioGroupListBox -->
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupButtonUncheckedForeground" Opacity="0.8" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupButtonUncheckedForeground" ResourceKey="SemiColorText1" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonUncheckedPointeroverBackground" ResourceKey="SemiColorFill1" />
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupButtonUncheckedDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupButtonUncheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedForeground" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedBackground" ResourceKey="SemiColorBackground3" />
-    <SolidColorBrush x:Key="ListBoxItemRadioGroupButtonCheckedDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemRadioGroupButtonCheckedDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <!-- CardRadioGroupListBox -->
     <SolidColorBrush x:Key="ListBoxItemRadioGroupCardDefaultBackground" Color="Transparent" />
@@ -59,13 +59,13 @@
 
     <!-- CheckGroupListBox -->
     <StaticResource x:Key="ListBoxItemCheckForeground" ResourceKey="SemiColorText0" />
-    <SolidColorBrush x:Key="ListBoxItemCheckDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemCheckDisabledForeground" ResourceKey="SemiColorDisabledText" />
 
     <SolidColorBrush x:Key="ListBoxItemCheckGlyphFill" Color="White" />
     <SolidColorBrush x:Key="ListBoxItemCheckGlyphDisabledFill" Color="White" />
 
     <SolidColorBrush x:Key="ListBoxItemCheckDefaultBackground" Color="Transparent" />
-    <SolidColorBrush x:Key="ListBoxItemCheckDefaultBorderBrush" Opacity="0.35" Color="#F9F9F9" />
+    <StaticResource x:Key="ListBoxItemCheckDefaultBorderBrush" ResourceKey="SemiColorText3" />
     <StaticResource x:Key="ListBoxItemCheckPointeroverBackground" ResourceKey="SemiColorFill0" />
     <StaticResource x:Key="ListBoxItemCheckPointeroverBorderBrush" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="ListBoxItemCheckPressedBackground" ResourceKey="SemiColorInformationPressed" />
