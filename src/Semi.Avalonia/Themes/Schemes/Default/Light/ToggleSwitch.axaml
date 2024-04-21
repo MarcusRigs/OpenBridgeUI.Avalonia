@@ -6,7 +6,7 @@
 
     <StaticResource x:Key="ToggleSwitchContainerUnCheckedDisabledBorderBrush" ResourceKey="SemiColorFill1" />
 
-    <SolidColorBrush x:Key="ToggleSwitchContainerCheckedDefaultBackground" Color="#5FB346" />
+    <StaticResource x:Key="ToggleSwitchContainerCheckedDefaultBackground" ResourceKey="SemiColorSuccess" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPointeroverBackground" ResourceKey="SemiColorSuccessPointerover" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedPressedBackground" ResourceKey="SemiColorSuccessPressed" />
     <StaticResource x:Key="ToggleSwitchContainerCheckedDisabledBackground" ResourceKey="SemiColorSuccessDisabled" />
