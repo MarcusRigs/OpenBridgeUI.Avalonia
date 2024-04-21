@@ -2,13 +2,13 @@
     <StaticResource x:Key="SliderTrackForeground" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="SliderTrackBackground" ResourceKey="SemiColorFill0" />
 
-    <SolidColorBrush x:Key="SliderTickForeground" Color="#41464C" />
+    <SolidColorBrush x:Key="SliderTickForeground" Color="{StaticResource SemiGrey2Color}" />
     <SolidColorBrush x:Key="SliderThumbBackground" Color="White" />
     <StaticResource x:Key="SliderThumbBorderBrush" ResourceKey="SemiColorInformation" />
     <StaticResource x:Key="SliderThumbPointeroverBorderBrush" ResourceKey="SemiColorInformationPointerover" />
     <StaticResource x:Key="SliderThumbPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
-    <SolidColorBrush x:Key="SliderTrackDisabledForeground" Color="#FF41464C" />
-    <SolidColorBrush x:Key="SliderThumbDisabledBorderBrush" Color="#0A4694" />
-    <SolidColorBrush x:Key="SliderTrackDisabledBackground" Color="#1C1F23" />
+    <SolidColorBrush x:Key="SliderTrackDisabledForeground" Color="{StaticResource SemiGrey2Color}" />
+    <SolidColorBrush x:Key="SliderThumbDisabledBorderBrush" Color="{StaticResource SemiBlue1Color}" />
+    <SolidColorBrush x:Key="SliderTrackDisabledBackground" Color="{StaticResource SemiGrey0Color}" />
 </ResourceDictionary>

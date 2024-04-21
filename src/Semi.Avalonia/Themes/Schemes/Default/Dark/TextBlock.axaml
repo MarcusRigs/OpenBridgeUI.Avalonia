@@ -7,10 +7,10 @@
     <StaticResource x:Key="TextBlockWarningForeground" ResourceKey="SemiColorWarning" />
     <StaticResource x:Key="TextBlockDangerForeground" ResourceKey="SemiColorDanger" />
     <StaticResource x:Key="TextBlockDisabledForeground" ResourceKey="SemiColorDisabledText" />
-    <SolidColorBrush x:Key="TextBlockCodeForeground" Opacity="0.68" Color="#F9F9F9" />
+    <SolidColorBrush x:Key="TextBlockCodeForeground" Opacity="0.68" Color="{StaticResource SemiGrey9Color}" />
     <SolidColorBrush x:Key="TextBlockMarkBackground" Color="#053170" />
-    <SolidColorBrush x:Key="TextBlockCodeBackground" Opacity="0.1" Color="#E6E8EA" />
-    <SolidColorBrush x:Key="TextBlockCodeBorderBrush" Opacity="0.2" Color="#E6E8EA" />
+    <SolidColorBrush x:Key="TextBlockCodeBackground" Opacity="0.1" Color="{StaticResource SemiGrey8Color}" />
+    <SolidColorBrush x:Key="TextBlockCodeBorderBrush" Opacity="0.2" Color="{StaticResource SemiGrey8Color}" />
 
     <StaticResource x:Key="TextBlockSelectionBackground" ResourceKey="SemiColorInformationLight" />
 </ResourceDictionary>

@@ -9,6 +9,6 @@
     <StaticResource x:Key="SliderThumbPressedBorderBrush" ResourceKey="SemiColorInformationPressed" />
 
     <SolidColorBrush x:Key="SliderTrackDisabledForeground" Color="{StaticResource SemiGrey2Color}" />
-    <StaticResource x:Key="SliderThumbDisabledBorderBrush" ResourceKey="SemiBlue1" />
-    <StaticResource x:Key="SliderTrackDisabledBackground" ResourceKey="SemiGrey0" />
+    <SolidColorBrush x:Key="SliderThumbDisabledBorderBrush" Color="{StaticResource SemiBlue1Color}" />
+    <SolidColorBrush x:Key="SliderTrackDisabledBackground" Color="{StaticResource SemiGrey0Color}" />
 </ResourceDictionary>

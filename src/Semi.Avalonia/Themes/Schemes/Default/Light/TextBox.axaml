@@ -13,7 +13,7 @@
     <StaticResource x:Key="TextBoxButtonPointeroverForeground" ResourceKey="SemiColorInformation" />
 
     <StaticResource x:Key="TextBoxDisabledBackground" ResourceKey="SemiColorDisabledFill" />
-    <StaticResource x:Key="TextBoxDisabledForeground" ResourceKey="SemiColorText3" />
+    <StaticResource x:Key="TextBoxDisabledForeground" ResourceKey="SemiColorDisabledText" />
     <SolidColorBrush x:Key="TextBoxDisabledBorderBrush" Color="Transparent" />
 
     <SolidColorBrush x:Key="TextBoxBorderedDefaultBackground" Color="Transparent" />

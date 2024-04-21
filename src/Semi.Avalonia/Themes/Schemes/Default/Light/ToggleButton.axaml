@@ -38,12 +38,12 @@
 
     <SolidColorBrush x:Key="ToggleButtonCheckedForeground" Color="White" />
 
-    <StaticResource x:Key="ToggleButtonPrimaryIndeterminateBackground" ResourceKey="SemiColorPrimaryLight" />
-    <StaticResource x:Key="ToggleButtonSecondaryIndeterminateBackground" ResourceKey="SemiColorSecondaryLight" />
-    <StaticResource x:Key="ToggleButtonTertiaryIndeterminateBackground" ResourceKey="SemiColorTertiaryLight" />
-    <StaticResource x:Key="ToggleButtonSuccessIndeterminateBackground" ResourceKey="SemiColorSuccessLight" />
-    <StaticResource x:Key="ToggleButtonWarningIndeterminateBackground" ResourceKey="SemiColorWarningLight" />
-    <StaticResource x:Key="ToggleButtonDangerIndeterminateBackground" ResourceKey="SemiColorDangerLight" />
+    <SolidColorBrush x:Key="ToggleButtonPrimaryIndeterminateBackground" Color="{StaticResource SemiBlue0Color}" />
+    <SolidColorBrush x:Key="ToggleButtonSecondaryIndeterminateBackground" Color="{StaticResource SemiLightBlue0Color}" />
+    <SolidColorBrush x:Key="ToggleButtonTertiaryIndeterminateBackground" Color="{StaticResource SemiGrey0Color}" />
+    <SolidColorBrush x:Key="ToggleButtonSuccessIndeterminateBackground" Color="{StaticResource SemiGreen0Color}" />
+    <SolidColorBrush x:Key="ToggleButtonWarningIndeterminateBackground" Color="{StaticResource SemiOrange0Color}" />
+    <SolidColorBrush x:Key="ToggleButtonDangerIndeterminateBackground" Color="{StaticResource SemiRed0Color}" />
 
     <StaticResource x:Key="ToggleButtonPrimaryIndeterminateBorderBrush" ResourceKey="SemiColorPrimary" />
     <StaticResource x:Key="ToggleButtonSecondaryIndeterminateBorderBrush" ResourceKey="SemiColorSecondary" />
