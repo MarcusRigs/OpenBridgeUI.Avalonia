@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Semi.Avalonia.Demo.Web",
   "resources": {
-    "hash": "sha256-ThkBGDij01qp76kBtLpRRm73rlr5cxPsnlhy7xFvKos=",
+    "hash": "sha256-d5GeKSOsO/o7OffablggeJ/gNEMj5K3zYrhQC2E0nXo=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.o8z0k8deif.js": "sha256-mhHKxdH8yx5ZDUsh3dRleqVaFL/MwNyp7N8pQgG7QcA="
     },
@@ -37,11 +37,11 @@
       "HarfBuzzSharp.wasm": "sha256-lJ+uf/j5QdDNq+rbyKQp03mCxPazObS+na/TKFd0+MU=",
       "MicroCom.Runtime.wasm": "sha256-dI22KS20yc+ziyg4tSUpmSjG0ebPXDL5QTSZf+ehjwI=",
       "netstandard.wasm": "sha256-Tqh2jST6NbpeIZVx2Cqn0OUCIWhNh6Oe8Q1kJxmJgMs=",
-      "Semi.Avalonia.ColorPicker.wasm": "sha256-t7uC5Bpjwjk2Fawu+sPhMcHYoNRl+Stumm60oQmfXtM=",
-      "Semi.Avalonia.DataGrid.wasm": "sha256-EunUY9huJhb5+8PZLvrgBk0k8uO2Fx7y6I+f2F4hpFQ=",
-      "Semi.Avalonia.Demo.wasm": "sha256-/yuqR2Ut4UMv1Bb/f01Me/OM3KrrCGPezrjQHY+EhH0=",
-      "Semi.Avalonia.Demo.Web.wasm": "sha256-bX2TtqdzlPNMOJ2AgEJFUxty21o2iMa10WQyMPKdK/w=",
-      "Semi.Avalonia.wasm": "sha256-Z99ifG0vRLuoVMeaCoiGGDv7fysYsrc1JdTuYEzve+Q=",
+      "Semi.Avalonia.ColorPicker.wasm": "sha256-hXlG4Haq5XUvhIZHwSBWSuWymYs6pHYROb8/WGMCloo=",
+      "Semi.Avalonia.DataGrid.wasm": "sha256-yTJ/PnkpwwZvSbR/jEehPyZCHT17XTb62QvnP6/u6ZM=",
+      "Semi.Avalonia.Demo.wasm": "sha256-+jU37/EJr8bU0TNTF2uluCRrAPs4IAoH2ktB9HtiYU0=",
+      "Semi.Avalonia.Demo.Web.wasm": "sha256-WQy9rawr/6zPJWrgCCZHlY74wejdOdj1XuQTY5RsEjY=",
+      "Semi.Avalonia.wasm": "sha256-gtJ/3umR1imrq7EDBNcYCEYmTxX6V9j1oDSCbHbJUAA=",
       "SkiaSharp.wasm": "sha256-xgSclqCZDzOz9K5Ip3BIjhR1BdnS27uRV2Kk4Xgc5P8=",
       "System.Collections.Concurrent.wasm": "sha256-TNVxUC5AFQuE8xsH7qbkAnX3MEII97X6luchAssYPNM=",
       "System.Collections.NonGeneric.wasm": "sha256-wrqgh11JGOhXibp7AbMuvCqpNT+K+uD9EWUvdbsUbpc=",
