@@ -1,7 +1,7 @@
 using Avalonia;
 using Avalonia.Media;
 
-namespace Semi.Avalonia.Demo.Web;
+namespace Semi.Avalonia.Demo;
 
 public static class AvaloniaAppBuilderExtensions
 {

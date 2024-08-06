@@ -32,5 +32,6 @@ class Program
             .UseManagedSystemDialogs()
             .UsePlatformDetect()
             .With(new Win32PlatformOptions())
+            .WithSourceHanSansCNFont()
             .LogToTrace();
 }
