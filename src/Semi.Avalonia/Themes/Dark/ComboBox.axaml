@@ -1,13 +1,13 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="ComboBoxSelectorBackground" Opacity="0.12" Color="White" />
+    <SolidColorBrush x:Key="ComboBoxSelectorBackground" Color="#3D3D3D" />
     <SolidColorBrush x:Key="ComboBoxSelectorPointeroverBackground" Opacity="0.16" Color="White" />
     <SolidColorBrush x:Key="ComboBoxSelectorFocusBackground" Opacity="0.16" Color="White" />
-    <SolidColorBrush x:Key="ComboBoxSelectorPressedBackground" Opacity="0.20" Color="White" />
+    <SolidColorBrush x:Key="ComboBoxSelectorPressedBackground" Color="#292929" />
     <SolidColorBrush x:Key="ComboBoxSelectorDisabledBackground" Opacity="0.04" Color="#E6E8EA" />
-    <SolidColorBrush x:Key="ComboBoxSelectorBorderBrush" Color="Transparent" />
-    <SolidColorBrush x:Key="ComboBoxSelectorPointeroverBorderBrush" Color="Transparent" />
-    <SolidColorBrush x:Key="ComboBoxSelectorFocusBorderBrush" Color="#54A9FF" />
-    <SolidColorBrush x:Key="ComboBoxSelectorPressedBorderBrush" Color="#54A9FF" />
+    <SolidColorBrush x:Key="ComboBoxSelectorBorderBrush" Color="#707070" />
+    <SolidColorBrush x:Key="ComboBoxSelectorPointeroverBorderBrush" Color="#707070" />
+    <SolidColorBrush x:Key="ComboBoxSelectorFocusBorderBrush" Color="#707070" />
+    <SolidColorBrush x:Key="ComboBoxSelectorPressedBorderBrush" Color="#707070" />
 
     <SolidColorBrush x:Key="ComboBoxIconDefaultForeground" Opacity="0.6" Color="#F9F9F9" />
     <SolidColorBrush x:Key="ComboBoxIconPointeroverForeground" Color="#F9F9F9" />
@@ -15,13 +15,13 @@
     <SolidColorBrush x:Key="ComboBoxIconPressedForeground" Color="#F9F9F9" />
     <SolidColorBrush x:Key="ComboBoxIconDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
 
-    <SolidColorBrush x:Key="ComboBoxDisabledForeground" Opacity="0.35" Color="#F9F9F9" />
+    <SolidColorBrush x:Key="ComboBoxDisabledForeground" Opacity="0.20" Color="#FFFFFF" />
 
-    <BoxShadows x:Key="ComboBoxPopupBoxShadow">0 0 8 0 #1AFFFFFF</BoxShadows>
-    <SolidColorBrush x:Key="ComboBoxPopupBackground" Color="#43444A" />
-    <SolidColorBrush x:Key="ComboBoxPopupBorderBrush" Opacity="0.08" Color="White" />
+    <BoxShadows x:Key="ComboBoxPopupBoxShadow">0 2 1 0 #CCCCCC</BoxShadows>
+    <SolidColorBrush x:Key="ComboBoxPopupBackground" Color="#3D3D3D" />
+    <SolidColorBrush x:Key="ComboBoxPopupBorderBrush" Color="#707070" />
 
-    <SolidColorBrush x:Key="ComboBoxItemForeground" Color="#F9F9F9" />
+    <SolidColorBrush x:Key="ComboBoxItemForeground" Color="#FFFFFF" />
 
     <SolidColorBrush x:Key="ComboBoxItemBackground" Color="Transparent" />
     <SolidColorBrush x:Key="ComboBoxItemPointeroverBackground" Opacity="0.12" Color="White" />

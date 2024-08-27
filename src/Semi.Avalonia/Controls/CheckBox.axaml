@@ -19,7 +19,7 @@
             <ControlTemplate TargetType="CheckBox">
                 <Border
                     x:Name="RootBorder"
-                    Background="{TemplateBinding Background}"
+                    Background="Transparent"
                     BorderBrush="{TemplateBinding BorderBrush}"
                     BorderThickness="{TemplateBinding BorderThickness}"
                     CornerRadius="{TemplateBinding CornerRadius}">

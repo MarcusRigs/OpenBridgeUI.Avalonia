@@ -6,8 +6,11 @@
     <Application.Styles>
         <!-- You can still reference in old way.  -->
         <!-- <StyleInclude Source="avares://Semi.Avalonia/Themes/Index.axaml" /> -->
-        <semi:SemiTheme Locale="zh-cn" />
+        <semi:SemiTheme Locale="en-US" />
         <StyleInclude Source="avares://Semi.Avalonia.DataGrid/Index.axaml" />
         <StyleInclude Source="avares://Semi.Avalonia.ColorPicker/Index.axaml" />
     </Application.Styles>
+  <Application.Resources>
+    <FontFamily x:Key="NotoSans">C:\Users\Marcus\Documents\Code\Apps\OpenBridgeUI\src\Semi.Avalonia\Fonts\NotoSans.ttf</FontFamily>
+  </Application.Resources>
 </Application>

@@ -11,6 +11,7 @@
     x:CompileBindings="True"
     x:DataType="vm:DataGridDemoViewModel"
     mc:Ignorable="d">
+  <Border Classes="Shadow" Theme="{StaticResource CardBorder}">
     <TabControl>
         <TabItem Header="DataGrid">
            <Grid RowDefinitions="Auto, *">
@@ -176,4 +177,5 @@
             </Grid>
         </TabItem>
     </TabControl>
+    </Border>
 </UserControl>

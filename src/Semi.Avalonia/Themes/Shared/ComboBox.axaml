@@ -1,5 +1,5 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <CornerRadius x:Key="ComboBoxSelectorCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="ComboBoxSelectorCornerRadius">6</CornerRadius>
 
     <Thickness x:Key="ComboBoxItemDefaultPadding">8 4</Thickness>
     <Thickness x:Key="ComboBoxSelectorDefaultPadding">8 0</Thickness>

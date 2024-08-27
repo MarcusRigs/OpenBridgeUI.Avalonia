@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <Import Project="../Package.props"/>
+    <Import Project="../Package.props" />
 
     <PropertyGroup>
         <Title>Semi.Avalonia</Title>
@@ -12,7 +12,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)"/>
+      <None Remove="Fonts\NotoSans.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AvaloniaResource Include="Fonts\NotoSans.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
     </ItemGroup>
 
 </Project>

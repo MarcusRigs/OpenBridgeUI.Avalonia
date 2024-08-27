@@ -86,6 +86,7 @@
         <Style Selector="^:disabled /template/ ContentPresenter#PART_ContentPresenter">
             <Setter Property="BorderBrush" Value="{DynamicResource ButtonDefaultDisabledBorderBrush}" />
             <Setter Property="Foreground" Value="{DynamicResource ButtonDefaultDisabledForeground}" />
+            <Setter Property="Background" Value="{DynamicResource ButtonDefaultDisabledBackground}" />
         </Style>
 
         <Style Selector="^.Large">

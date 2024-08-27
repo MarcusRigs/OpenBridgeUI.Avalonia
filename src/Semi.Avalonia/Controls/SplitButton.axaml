@@ -70,7 +70,7 @@
                     <DockPanel>
                         <Button
                             x:Name="PART_SecondaryButton"
-                            Padding="4,0"
+                            Padding="8,0"
                             VerticalAlignment="Stretch"
                             HorizontalContentAlignment="Center"
                             VerticalContentAlignment="Center"
