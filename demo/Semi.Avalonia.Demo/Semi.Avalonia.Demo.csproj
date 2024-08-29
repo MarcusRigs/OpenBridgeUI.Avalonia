@@ -8,6 +8,10 @@
     <ItemGroup>
         <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <None Remove="Assets\NotoSans.ttf" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />

@@ -12,6 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Fonts\NotoSans-Regular.ttf" />
       <None Remove="Fonts\NotoSans.ttf" />
     </ItemGroup>
 
@@ -21,6 +22,7 @@
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+        <PackageReference Include="Avalonia.Svg.Skia" Version="11.1.0" />
     </ItemGroup>
 
 </Project>

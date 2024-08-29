@@ -45,6 +45,39 @@
                 <Button Classes="Warning">Warning</Button>
                 <Button Classes="Danger">Danger</Button>
                 <Button Classes="Danger" IsEnabled="False">Disabled</Button>
+                <Button Classes="Primary">
+                  <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/Icon.png" Width="20"/>
+                    <Label Margin="8,0,0,0">Icon Button</Label>
+                  </StackPanel>  
+                </Button>
+            </StackPanel>
+          </Border>
+          <Border Classes="Shadow" Theme="{StaticResource CardBorder}">
+            <StackPanel Orientation="Horizontal" Spacing="20">
+              
+              <Button Width="80" Height="80" Padding="0">
+                <Grid RowDefinitions="*, Auto" ShowGridLines="False">
+                  <Svg Path="/Assets/Icon.svg" Grid.Row="0" Margin="8"/>
+                  <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5">Button</TextBlock>
+                </Grid>
+              </Button>
+
+              <ToggleButton Width="80" Height="80" Padding="0">
+                <Grid RowDefinitions="*, Auto" ShowGridLines="False">
+                  <Svg Path="/Assets/Icon.svg" Grid.Row="0" Margin="8"/>
+                  <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5">Toggle</TextBlock>
+                </Grid>
+              </ToggleButton>
+
+              <ToggleButton Width="80" Height="80" Padding="0" Classes="Success">
+                <Grid RowDefinitions="*, Auto" ShowGridLines="False">
+                  <Svg Path="/Assets/Icon.svg" Grid.Row="0" Margin="8" />
+                  <!--<Image Source="/Assets/Icon.png" Grid.Row="0" Margin="8"/>-->
+                  <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5">Toggle Green</TextBlock>
+                </Grid>
+              </ToggleButton>
+              
             </StackPanel>
           </Border>
             <TextBlock>Solid</TextBlock>

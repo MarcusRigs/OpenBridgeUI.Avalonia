@@ -328,6 +328,16 @@
     <SolidColorBrush x:Key="SemiGrey9" Color="{StaticResource SemiGrey9Color}" />
 
     <!--  Primary  -->
+    <SolidColorBrush x:Key="SemiColorPrimary" Color="#325B9A" />
+    <SolidColorBrush x:Key="SemiColorPrimaryPointerover" Color="#264573" />
+    <SolidColorBrush x:Key="SemiColorPrimaryPressed" Color="#1C3254" />
+    <SolidColorBrush x:Key="SemiColorPrimaryActive" Color="#1C3254" />
+    <SolidColorBrush x:Key="SemiColorPrimaryDisabled" Color="#BBBBBB" />
+    <SolidColorBrush x:Key="SemiColorPrimaryLight" Color="#325B9A" />
+    <SolidColorBrush x:Key="SemiColorPrimaryLightPointerover" Color="#264573" />
+    <SolidColorBrush x:Key="SemiColorPrimaryLightActive" Color="#1C3254" />
+  
+    <!--
     <SolidColorBrush x:Key="SemiColorPrimary" Color="{StaticResource SemiBlue5Color}" />
     <SolidColorBrush x:Key="SemiColorPrimaryPointerover" Color="{StaticResource SemiBlue6Color}" />
     <SolidColorBrush x:Key="SemiColorPrimaryPressed" Color="{StaticResource SemiBlue7Color}" />
@@ -336,6 +346,8 @@
     <SolidColorBrush x:Key="SemiColorPrimaryLight" Color="{StaticResource SemiBlue0Color}" />
     <SolidColorBrush x:Key="SemiColorPrimaryLightPointerover" Color="{StaticResource SemiBlue1Color}" />
     <SolidColorBrush x:Key="SemiColorPrimaryLightActive" Color="{StaticResource SemiBlue2Color}" />
+    -->
+  
     <!--  Secondary  -->
     <SolidColorBrush x:Key="SemiColorSecondary" Color="{StaticResource SemiLightBlue5Color}" />
     <SolidColorBrush x:Key="SemiColorSecondaryPointerover" Color="{StaticResource SemiLightBlue6Color}" />

@@ -3,5 +3,5 @@
     <FontWeight x:Key="ToggleButtonDefaultFontWeight">600</FontWeight>
 
     <Thickness x:Key="ToggleButtonBorderThickness">1</Thickness>
-    <CornerRadius x:Key="ToggleButtonCornerRadius">3</CornerRadius>
+    <CornerRadius x:Key="ToggleButtonCornerRadius">6</CornerRadius>
 </ResourceDictionary>

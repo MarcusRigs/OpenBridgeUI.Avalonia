@@ -98,6 +98,10 @@
         <Style Selector="^:checked">
             <Setter Property="Foreground" Value="{DynamicResource ToggleButtonCheckedForeground}" />
             <Setter Property="Background" Value="{DynamicResource ToggleButtonPrimaryCheckedBackground}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource ToggleButtonCheckedBorderBrush}" />
+            <Style Selector="^:Svg">
+              <Setter Property="(Svg.Css)" Value="* { fill: #FF0000; }" />
+            </Style>
             <Style Selector="^.Primary">
                 <Setter Property="Background" Value="{DynamicResource ToggleButtonPrimaryCheckedBackground}" />
             </Style>
